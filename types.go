@@ -198,7 +198,7 @@ type (
 		Locale             string             `json:"locale,omitempty"`
 		ShippingPreference ShippingPreference `json:"shipping_preference,omitempty"`
 		UserAction         UserAction         `json:"user_action,omitempty"`
-		//LandingPage        string `json:"landing_page,omitempty"` // not found in documentation
+		LandingPage        string `json:"landing_page,omitempty"`
 		ReturnURL string `json:"return_url,omitempty"`
 		CancelURL string `json:"cancel_url,omitempty"`
 	}
